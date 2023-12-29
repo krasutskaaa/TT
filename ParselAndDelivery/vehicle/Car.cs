@@ -1,6 +1,5 @@
 ﻿namespace ParselAndDelivery.vehicle;
 
-
 public class Car : IVehicle
 {
     public VehicleBrands Brand { get; set ;}
