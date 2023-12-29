@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ParselAndDelivery.IData
 {
-    internal interface IData
+    public interface IData
     {
+        void Id();
+        void Time();
+        void Destination();
     }
 }
